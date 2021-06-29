@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #b6eb7a;
+}
+.content {
+  max-width: 500px;
+  min-height: 500px;
+  margin-top: 3%;
+  border-radius: 50%;
+  background-color: #f7ea00;
+  padding: 50px;
+  border: 10px dotted #f7f7ee;
+}
+
+.ajax {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding: 50px;
+  border-radius: 50px;
+}
+.rot {
+  animation: shake 0.2s ease;
+}
+.image {
+  text-align: center;
+}
+.displayJoke {
+  font-family: "Chewy", cursive;
+  font-size: 20px;
+  color: #17706e;
+  max-width: 500px;
+  min-height: 200px;
+  padding: 30px;
+}
+.btnDiv {
+  text-align: center;
+}
+.jokeBtn {
+  background-color: transparent;
+  height: 50px;
+  width: 250px;
+  font-family: "Luckiest Guy", cursive;
+  font-size: 40px;
+  color: #fb7813;
+  border: none;
+}
+.jokeBtn:hover {
+  cursor: pointer;
+}
+@keyframes shake {
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
