@@ -1,2 +1,3 @@
 # ajaxJquery
-Random Jokes Aplication
+Random Jokes Aplication. 
+Calling jokes api.
